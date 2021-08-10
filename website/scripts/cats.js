@@ -22,6 +22,7 @@ function renderCat(cat){
   catsList.appendChild(div)
 }
 
+// Calling renderCats on an array of cats will fix this code
 renderCats(cats)
 
 // function renderCat(cat){
