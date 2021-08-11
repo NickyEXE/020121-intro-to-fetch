@@ -22,8 +22,13 @@ function renderCat(cat){
   catsList.appendChild(div)
 }
 
+fetch("http://localhost:3000/cats")
+.then(resp => resp.json())
+.then(cats => renderCats(cats))
+
+
 // Calling renderCats on an array of cats will fix this code
-renderCats(cats)
+// renderCats(cats)
 
 // function renderCat(cat){
 //   const catsList = document.querySelector(".cats-list")

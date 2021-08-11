@@ -9,13 +9,11 @@
 - [ ] **BONUS** Use `catch` to handle errors in promises
 
 ## Notes
-- AJAX:
- * Asynchronous
- * JavaScript
- * And
- * XML HTTP Request
- => eXtensible Markup Language HyperText Transfer Protocol Request
-- JSON: JAVASCRIPT OBJECT NOTATION
+- AJAX: Asynchronous JavaScript And XML HTTP Request
+  eXtensible Markup Language
+
+  Asynchronous JavaScript and eXtensible Markup Language HyperText Transfer Protocol Request
+- JSON: JavaScript Object Notation
 - `json-server`:
 
 ## What Does Synchronous/ Asynchronous Mean 🕰
@@ -211,7 +209,6 @@ fetch("https://dog.ceo/api/breeds/list/all")
 
 Instructions:
  * Clone down this lab.
- * `cd` into `03-JS-Fetch`
  * run `npm install -g json-server`
  * run `json-server cats.json`
  * open `http://localhost:3000/cats` in your browser
